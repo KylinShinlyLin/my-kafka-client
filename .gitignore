@@ -1,0 +1,52 @@
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# mac Files #
+*.DS_Store
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+# 忽略.gitignore(不忽略)
+#.gitignore
+
+# 忽略所有 .o .a 结尾的文件
+*.[oa]
+
+# 忽略所有 ~ 结尾的文件
+*~
+# 忽略所有java编译后文件
+*.class
+*.jar
+target/
+*/target/
+# 忽略所有target文件夹(总觉得不妥,深层的代码目录里可能会有target为名的目录)
+#**/target/
+
+# 忽略git冲突备份文件
+*.bak
+
+# 忽略IntelliJ IDEA配置文件
+*.iml
+.idea/
+
+# 忽略eclipse配置文件
+.project
+*/.project
+.classpath
+*/.classpath
+.settings/
+*/.settings/
+
+#忽略前端构建中间依赖文件
+**/node_modules
+**/pc/temp
+**/pc/rev
+
+#忽略JRebel配置文件(用于本地热部署)
+rebel.xml
